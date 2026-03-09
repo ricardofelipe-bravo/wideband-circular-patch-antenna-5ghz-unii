@@ -15,7 +15,7 @@ This folder contains the PCB layout and manufacturing files for the circular pat
 |---|---|
 | `Antena Parche Circular.dxf` | Full model exported from FEKO (patch + feed line). Note: the ground plane slot is not included here due to export limitations — see separate file below |
 | `groundplane Parche Circular.dxf` | Ground plane exported separately to preserve the coupling slot geometry |
-| `full model Antena Parche Circular.dxf` | Complete assembly view as simulated in FEKO (air reference, no substrate) |
+| `full model Antena Parche Circular.dxf` | Complete assembly view as simulated in FEKO |
 | `Antena Parche Circular.epro` | EasyEDA project file — open this to edit the PCB layout and re-export Gerbers |
 | `Gerber_Antena_Parche_Circular_PCB1_2026-03-09.zip` | Gerber files ready for PCB fabrication |
 
