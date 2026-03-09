@@ -38,4 +38,4 @@ To reproduce or modify the PCB layout, open `Antena Parche Circular.epro` direct
 
 ## Notes
 
-The fabricated substrate thickness (1.6 mm) differs slightly from the simulation model (1.575 mm). Combined with the typical permittivity variation of commercial FR4, this accounts for the ~225 MHz downward frequency shift observed experimentally (resonance at 5.485 GHz vs. 5.72 GHz in simulation). Despite this shift, the prototype achieved a stronger adaptation (−42.4 dB) and a wider measured bandwidth than predicted.
+The fabricated substrate thickness (1.6 mm) differs slightly from the simulation model (1.575 mm). Combined with the typical permittivity variation of commercial FR4, this accounts for the ~225 MHz downward frequency shift observed experimentally (resonance at 5.485 GHz vs. 5.71 GHz in simulation). Despite this shift, the prototype achieved a stronger adaptation (−42.4 dB) and a wider measured bandwidth than predicted.
