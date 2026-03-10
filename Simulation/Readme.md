@@ -29,8 +29,19 @@ Two frequency sweeps were used depending on the purpose:
 | Solver | Method of Moments (MoM) |
 | Port impedance | 50 Ω |
 | Resonance frequency | 5.72 GHz |
-| Minimum S11 | −37.6 dB |
+| Minimum S11 | −31.31 dB |
+| Bandwidth (S11 < −10 dB) | 407 MHz (5.467 – 5.874 GHz) |
 
 ## Notes
 
-The design initially targeted 5.5 GHz following the cavity model procedure. The resonance was intentionally shifted to 5.72 GHz by adjusting the patch radius, slot dimensions, and feed line width. This shift was deliberate — moving the resonance toward the center of the U-NII band (U-NII-2C/2e, U-NII-3, U-NII-4: 5.470–5.925 GHz) increases the operational bandwidth and ensures coverage across the target sub-bands used in high-capacity wireless communications. The final geometry was exported as a STEP file for fabrication (see `cad/`).
+The design initially targeted 5.5 GHz following the cavity model procedure. The resonance was intentionally shifted to 5.72 GHz by adjusting the patch radius, slot dimensions, and feed line width. This shift was deliberate — moving the resonance toward the center of the U-NII band increases the operational bandwidth and maximizes sub-band coverage.
+
+The simulated bandwidth with S11 < −10 dB extends from **5.467 GHz to 5.874 GHz (407 MHz)**, covering virtually the entire upper U-NII spectrum:
+
+| Sub-band | Range | Coverage |
+|---|---|---|
+| U-NII-2C / U-NII-2e | 5.470 – 5.725 GHz | Almost complete |
+| U-NII-3 | 5.725 – 5.850 GHz | Full |
+| U-NII-4 / DSRC | 5.850 – 5.925 GHz | Partial |
+
+The final geometry was exported as a STEP file for fabrication (see `cad/`).
